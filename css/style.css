@@ -4,6 +4,7 @@ body{
 }
 #root{
     position: absolute;
+    z-index: -1;
     top: 0;;
     left: 0;
     bottom: 0;
@@ -12,10 +13,18 @@ body{
     height: 90%;
     background-color:aliceblue;
     margin: auto;
-    cursor:move;
+    cursor:pointer;
 }
 .display h2{
     display: inline;
 }
+.circle{
+    width: 40px;
+    height: 40px;
+    background-color:aqua;
+    border-radius: 50%;
+}
+
+
 
 /* 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 */
